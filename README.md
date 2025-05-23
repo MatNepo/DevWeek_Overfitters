@@ -46,7 +46,8 @@
 - Qwen2.5-1.5B-Instruct
 
 ### Инфраструктура
-- FAISS (индексация и быстрый поиск)
+- FAISS (инде
+- ксация и быстрый поиск)
 - Google Colab / Jupyter
 - Git + GitHub
 
