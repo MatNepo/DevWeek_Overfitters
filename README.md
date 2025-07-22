@@ -30,7 +30,7 @@
 ## 🛠 Используемые технологии
 
 ### Языки
-- Python 3.11s+
+- Python 3.11.0+
 
 ### Основные библиотеки и инструменты
 - transformers, sentence-transformers, torch
@@ -46,8 +46,7 @@
 - Qwen2.5-1.5B-Instruct
 
 ### Инфраструктура
-- FAISS (инде
-- ксация и быстрый поиск)
+- FAISS (индексация и быстрый поиск)
 - Google Colab / Jupyter
 - Git + GitHub
 
