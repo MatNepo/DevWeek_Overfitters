@@ -16,10 +16,10 @@
 ## ⚙️ Архитектура
 
 1. Извлечение признаков
-   - Видео → кадры → описание (Video-LLaMA)
-   - Аудио → распознавание речи (Whisper)
-   - Генерация ключевых слов/хештегов (Qwen2.5)
-   - Объединение текста → эмбеддинг (MiniLM)
+   - Видео → кадры → описание ([Video-LLaMA](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2))
+   - Аудио → распознавание речи ([Whisper](https://huggingface.co/openai/whisper-large-v3-turbo))
+   - Генерация ключевых слов/хештегов ([Qwen2.5](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct))
+   - Объединение текста → эмбеддинг ([MiniLM](https://huggingface.co/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2))
 
 2. Индексирование
    - Сохранение эмбеддингов видео в базу (FAISS + SQLite)
